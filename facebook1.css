@@ -1,178 +1,182 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 120vh;
-    background-color: #f0f2f5;
-}
-
-.container{
-    width:100%;
-    height:100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-}
-.left{
-    width:550px;
-}
-.left p{
-    font-size: 30px;
-    color:#1c1e21;
-    height: 200px;
-    font-family: "Roboto Condensed", sans-serif;
-}
-img{
-    width:300px;
-}
-.right{
-    width:400px;
-}
-.right form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    width:400px;
-    padding: 20px;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120vh;
+  background-color: #f0f2f5;
 }
 
-form input{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #999;
-    font-size: 16px;
-    outline: none;
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  width: 550px;
+}
+.left p {
+  font-size: 30px;
+  color: #1c1e21;
+  height: 200px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+img {
+  width: 300px;
+}
+.right {
+  width: 400px;
+}
+.right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 16px;
+  outline: none;
 }
 .input:focus {
   border-color: #4c8fec;
   box-shadow: 0 0 0 2px #e7f3ff;
 }
-.loginBtn{
-    background-color: #1877f2;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-    font-family: 'Arial';
-    font-weight: 700;
+.loginBtn {
+  background-color: #1877f2;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: "Arial";
+  font-weight: 700;
 }
 
-.loginBtn:hover{
-    background-color: #0a4da3;
+.loginBtn:hover {
+  background-color: #0a4da3;
 }
 
-.forget{
-    margin: 15px 0;
-    text-decoration: none;
-    color: #0f66d8;
-    font-family: 'Arial';
-    font-size: 14px;
+.forget {
+  margin: 15px 0;
+  text-decoration: none;
+  color: #0f66d8;
+  font-family: "Arial";
+  font-size: 14px;
 }
-.forget:hover, .page:hover{
-    text-decoration: underline;
+.forget:hover,
+.page:hover {
+  text-decoration: underline;
 }
-.sign-up{
-    padding-top: 20px;
-    border-top: 1px solid #999;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.signupBtn{
-    background-color: #42b72a;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 17px;
-    font-family: 'Arial';
-    font-weight: 600;
-} 
-
-.signupBtn:hover{
-    background-color: green;
+.sign-up {
+  padding-top: 20px;
+  border-top: 1px solid #999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.right p{
-    font-family: 'Arial';
-    font-size: 15px;
-}
-.page{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+.signupBtn {
+  background-color: #42b72a;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-family: "Arial";
+  font-weight: 600;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
+.signupBtn:hover {
+  background-color: green;
+}
+
+.right p {
+  font-family: "Arial";
+  font-size: 15px;
+}
+.page {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 27vh;
+  background-color: white;
+  padding: 0 150px;
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  display: block;
+  align-items: center;
+  padding-top: 30px;
+}
+.top > a,
+.bottom > a {
+  text-decoration: none;
+  color: rgb(63, 56, 56, 0.7);
+  font-size: 13px;
+  font-size: 12px;
+  padding-right: 5px;
+}
+.top > a {
+  padding-right: 5px;
+}
+.top > a:hover,
+.bottom > a:hover,
+span:hover {
+  text-decoration: underline;
+}
+span {
+  color: rgb(63, 56, 56, 0.8);
+  font-size: 13px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+small {
+  font-size: 11px;
+  color: rgb(63, 56, 56, 0.8);
+}
+
+@media (max-width: 950px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 400px;
+    align-content: center;
     align-items: center;
-    width: 100%;
-    height: 27vh;
-    background-color: white;
-    padding: 0 150px;
+  }
+
+  .left p {
+    height: 75px;
+  }
 }
-.footer{
-    width:100%;
-    height:100%;
-    display: block;
-    align-items: center;
-    padding-top: 30px;
-}
-.top>a, .bottom>a{
-    text-decoration: none;
-    color:rgb(63, 56, 56, 0.7);
-    font-size: 13px;
-    font-size: 12px;
-    padding-right: 5px;
-}
-.top>a{
-    padding-right: 5px;
-}
-span{
-    color:rgb(63, 56, 56, 0.8);
-    font-size: 13px;
-    padding-right: 10px;
-    font-size: 12px;
-}
-small{
-    font-size: 11px;
-    color: rgb(63, 56, 56, 0.8);
-}
-.input:focus{
-    border-color: #1877f2;
-    box-shadow: 0 0 0 2px #e7f3ff;
-} */
-@media(max-width:950px){
-    .container{
-        flex-direction: column;
-    }
-    
-    .left{
-        width: 400px;
-        align-content: center;
-        align-items: center;
-    }
-    
-    .left p{
-        height: 75px;
-    }  
-} 
