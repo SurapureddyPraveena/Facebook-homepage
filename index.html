@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - log in or sign up</title>
-    <link rel="stylesheet" href="facebook1.css">
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
+    <div id=login_page>
     <main>
         <div class="container">
             <div class="left">
@@ -15,16 +16,35 @@
                 <p>Facebook helps you connect and share with the people in your life.</p>
             </div>
             <div class="right">
-                <form>
-                    <input type="text"  class="input" placeholder="Email addess or phone number">
-                    <input type="password" class="input" placeholder="Password">
-                    <a href="" class="loginBtn">Log In</a>
-                    <a href="" class="forget">Forgotten password?</a>
-                    <div class="sign-up">
-                        <a href="" class="signupBtn">Create New Account</a>
-                    </div>
+                <div id="form_visible" style="display: block";>
+                    <form>
+                        <input type="text"  class="input" id="userEmail" placeholder="Email addess or Username">
+                        <div id="enterUsername"></div>
+                        <input type="password" class="input password" id="userPassword" placeholder="Password">
+                        <div id="not_a_user"></div>
+                        <button type="submit" class="loginBtn">Log In</button>
+                        <a href="" class="forget">Forgotten password?</a>
+                        <div class="sign-up">
+                            <button type="submit" class="signupBtn">Create New Account</button>
+                        </div>
+                    </form>
+                    <p><a href="#" class="page">Create a Page</a> for a celebrity, brand or business.</p>
+                </div>
+                <form id="form_hidden" style="display: none;">
+                    <h1 class="form__title">Create Account</h1>
+                    <input type="text"  class="input_newAcc" placeholder="Username" id="username">
+                    <div id=req_username></div>
+                    <input type="email" class="input_newAcc" placeholder="Email Address" id="email">
+                    <div id="invalid_email"></div>
+                    <input type="password" class="input_newAcc" placeholder="Password" id="password">
+                    <div id=req_password></div>
+                    <input type="password" class="input_newAcc" placeholder="Confirm Password" id="newpassword">
+                    <div id="incorrect_password"></div>
+                    <a href="" class="continue">Continue</a><br>
+                    <div id="created"></div>
+                    <br>
+                    <a href="" class="oldAcc">Already have an account? Sign-in</a>
                 </form>
-                <p><a href="#" class="page">Create a Page</a> for a celebrity, brand or business.</p>
             </div>
         </div>
     </main>
@@ -78,6 +98,12 @@
         <small>Facebook © 2021</small>
         </div>
         </div>
-   </footer>
+    </footer>
+    </div>
+    <div>
+        <div id="homepage" style="display: none"></div>
+        <div id="backtologin" style="display: none"></div>
+    </div>
+   <script src="test.js"></script>
 </body>
 </html>
