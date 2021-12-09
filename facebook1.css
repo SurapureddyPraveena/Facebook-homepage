@@ -60,6 +60,11 @@ form input {
   border-color: #4c8fec;
   box-shadow: 0 0 0 2px #e7f3ff;
 }
+.material-icons {
+  position: absolute;
+  top: 46%;
+  right: 140px;
+}
 .loginBtn {
   background-color: #1877f2;
   padding: 15px;
@@ -71,6 +76,7 @@ form input {
   font-size: 20px;
   font-family: "Arial";
   font-weight: 700;
+  border-style: none;
 }
 
 .loginBtn:hover {
@@ -88,6 +94,7 @@ form input {
 .page:hover {
   text-decoration: underline;
 }
+
 .sign-up {
   padding-top: 20px;
   border-top: 1px solid #999;
@@ -106,6 +113,7 @@ form input {
   font-size: 17px;
   font-family: "Arial";
   font-weight: 600;
+  border: none;
 }
 
 .signupBtn:hover {
@@ -122,6 +130,35 @@ form input {
   font-weight: 600;
 }
 
+.form__title {
+  padding: 20px;
+  text-align: center;
+}
+.input_newAcc:focus {
+  border-color: #4c8fec;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+.continue {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  background-color: #1877f2;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+}
+.continue:hover {
+  background-color: #316ab6;
+}
+.oldAcc {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.oldAcc:hover {
+  text-decoration: underline;
+}
 footer {
   display: flex;
   justify-content: center;
@@ -164,7 +201,18 @@ small {
   font-size: 11px;
   color: rgb(63, 56, 56, 0.8);
 }
-
+#homepage {
+  text-align: center;
+  margin-top: 20%;
+}
+#backtologin {
+  text-align: center;
+  margin-top: 22%;
+  color: #42b72a;
+}
+#backtologin:hover {
+  text-decoration: underline;
+}
 @media (max-width: 950px) {
   .container {
     flex-direction: column;
